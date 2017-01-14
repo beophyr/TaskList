@@ -1,6 +1,6 @@
 # Custom Task List
 * Each task can be a combination of important/urgent/fast
-* Sorting by Eisenhower Matrix (+ fast option)
+* Sorting by [Eisenhower Matrix] (https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) (+ fast option)
 * Multiple users (completely seperate, no sharing for now)
 * Later: Extension with APIs
 
