@@ -10,6 +10,7 @@
 * jQuery TableSorter: http://tablesorter.com/docs/
 * Dialog polyfill: https://github.com/GoogleChrome/dialog-polyfill
 * Google Fonts API: https://fonts.google.com/
+* HTML5 Boilerplate v5.0 http://h5bp.com/ 
 
 = TODO =
 
