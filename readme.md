@@ -13,6 +13,7 @@
 * HTML5 Boilerplate v5.0 http://h5bp.com/ 
 
 # TODO 
+Was gibt es noch zu tun?
 
 ## Wichtig
 * Add Button klappt nicht mobil (polyfill schlägt fehl?)
