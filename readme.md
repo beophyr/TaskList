@@ -13,18 +13,29 @@
 * HTML5 Boilerplate v5.0 http://h5bp.com/ 
 
 # TODO 
-Was gibt es noch zu tun?
+## Roadmap
+* ~~V0.1 sortierbare Tabelle (3 Spalten, 10 Zeilen) mittig auf der Seite mit MDLite und jquery darstellen~~
+* ~~V0.2 10 Task Objekte mit zufallsdaten erstellen und in der Tabelle anzeigen. Vorläufig nur Attribute id, Name, wichtig, dringend~~
+* ~~V0.3 add Button anzeigen, Klick öffnet Formular zum Erstellen eines weiteren Task Objektes. Absenden des Formulars fügt es der Tabelle hinzu.~~
+* V0.4 Formulardaten per REST an Server schicken. Dieser fügt das Task objekt an eine json Datei an. Webseite nutzt diese json Datei als Datenquelle.
+* V0.5 Klick auf Task objekt öffnet Detail Ansicht (selbe wie Formular, bloß read-only). Klick auf Bearbeiten Button erlaubt editieren. Klick auf senden schickt Daten zum Server, dieser editiert das vorhandene Task objekt. Tabelle aktualisiert sich mit neuem Server json.
+* V0.6 weitere Attribute Unterstützen: string DetailText, bool kurz, bool erledigt, time erstellt, time erledigt, string kategorie. D.h. in Formular, auf Server und in Tabelle
+* V0.7 Spalte Priorität hinzufügen, welche sich aus Spalten wichtig, dringend, kurz berechnet. Option erledigte Tasks auszublenden oder ans Ende zu sortieren.
+* V0.8 sekundäre Sortierung immer nach Kategorie oder durch ntzer wählbar?
+* V0.9 Icons hinzufügen
+* ?V0.10 mehrere Benutzer durch verschiedene json Dateien unterstützen
 
+# Problems
 ## Wichtig
 * Add Button klappt nicht mobil (polyfill schlägt fehl?)
 * Formular
-   * checkboxen werden nicht korrekt ausgelesen (mdl setzt :checken nicht richtig?)
-   * reset funktioniert manchmal nicht mit boxen
-   * klick auf label statt box, klappt manchmal nicht
+ * checkboxen werden nicht korrekt ausgelesen (mdl setzt :checken nicht richtig?)
+ * reset funktioniert manchmal nicht mit boxen
+ * klick auf label statt box, klappt manchmal nicht
 
 ## Medium
 * Breite an Mobil anpassen
-   * Karte soll fullscreen, so dass kein platz am rand verschwendet wird
+ * Karte soll fullscreen, so dass kein platz am rand verschwendet wird
 * Farben anpassen
 * About Info erstellen
 * ? Für mobile: add class "mdl-button--mini-fab" to add butto`?
