@@ -12,12 +12,18 @@
 * Google Fonts API: https://fonts.google.com/
 * HTML5 Boilerplate v5.0 http://h5bp.com/ 
 
-# TODO 
+# ToDo 
 ## Roadmap
 * ~~V0.1 sortierbare Tabelle (3 Spalten, 10 Zeilen) mittig auf der Seite mit MDLite und jquery darstellen~~
 * ~~V0.2 10 Task Objekte mit zufallsdaten erstellen und in der Tabelle anzeigen. Vorläufig nur Attribute id, Name, wichtig, dringend~~
 * ~~V0.3 add Button anzeigen, Klick öffnet Formular zum Erstellen eines weiteren Task Objektes. Absenden des Formulars fügt es der Tabelle hinzu.~~
-* V0.4 Formulardaten per REST an Server schicken. Dieser fügt das Task objekt an eine json Datei an. Webseite nutzt diese json Datei als Datenquelle.
+* V0.4 Backend zum Speichern der Daten (REST Api über eine URL)
+  * POST: 
+    * Falls Attribut id leer: neues Objekt anlegen  
+    * Falls Attribut id vorhanden: bestehendes Objekt editieren (falls gegebene Id nicht existiert, Fehler)  
+    * Antwort: HTTP:200 + erstellte/editierte id oder HTTP:400 + message, dass Id nicht vorhanden ist   
+ * GET:
+   * Alle vorhandenen Tasks als JSON zur Verfügung stellen   
 * V0.5 Klick auf Task objekt öffnet Detail Ansicht (selbe wie Formular, bloß read-only). Klick auf Bearbeiten Button erlaubt editieren. Klick auf senden schickt Daten zum Server, dieser editiert das vorhandene Task objekt. Tabelle aktualisiert sich mit neuem Server json.
 * V0.6 weitere Attribute Unterstützen: string DetailText, bool kurz, bool erledigt, time erstellt, time erledigt, string kategorie. D.h. in Formular, auf Server und in Tabelle
 * V0.7 Spalte Priorität hinzufügen, welche sich aus Spalten wichtig, dringend, kurz berechnet. Option erledigte Tasks auszublenden oder ans Ende zu sortieren.
