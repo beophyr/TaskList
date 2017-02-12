@@ -31,6 +31,9 @@
 * V0.9 Icons hinzufügen
 * ?V0.10 mehrere Benutzer durch verschiedene json Dateien unterstützen
 
+#Beispielinstallation
+* Eine beispielhafte Installation ist unter http://merl.be/TaskList/ zu finden
+
 # Problems
 ## Wichtig
 * Add Button klappt nicht mobil (polyfill schlägt fehl?)

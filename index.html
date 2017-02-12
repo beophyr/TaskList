@@ -18,7 +18,10 @@
 		<script defer src="js/plugins/dialog-polyfill.js"></script>
 		<script defer src="js/plugins/jquery.tablesorter.min.js"></script> 
 		<script defer src="js/main.js"></script>
+		<script defer src="js/js.js"></script>
 		<link href="css/main.css" rel="stylesheet">
+		<!-- maybe we don't need this styles.css because of the material design -->
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
@@ -52,6 +55,7 @@
 				</div>
 			</footer>
 		</div>
+		
 		<dialog class="mdl-dialog">
 			<h4 class="mdl-dialog__title">Add TaskItem</h4>
 			<div class="mdl-dialog__content">
@@ -76,5 +80,6 @@
 				<button id="btnDialogAbort" type="button" class="mdl-button close">Abort</button>
 			</div>
 		</dialog>
+	
 	</body>
 </html>
